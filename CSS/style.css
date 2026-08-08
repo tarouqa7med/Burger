@@ -22,7 +22,6 @@ header nav .container {
     width: 85%;
     margin: auto;
     overflow: auto;
-    filter: drop-shadow(0 0 10px white);
 }
 header nav img {
     width: 160px;
@@ -57,7 +56,6 @@ header nav ul li a:hover {
 }
 header .header {
     width: 100%;
-    filter: drop-shadow(0 0 10px white);
 }
 header .header .container {
     margin: auto;
@@ -76,6 +74,7 @@ header .header .container img {
     font-size: 45px;
     font-weight: 500;
     text-align: center;
+    filter: drop-shadow(0 0 10px white);
 }
 .header p {
     font-size: 20px;
@@ -100,7 +99,7 @@ section#About .container .heading h1 {
     margin-bottom: 20px;
     font-size: 65px;
     font-weight: 600;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 2px white);
 }
 section#About .container .heading h5 {
     text-align: center;
@@ -134,7 +133,6 @@ section#About .container .image {
 }
 section#About .container .image  img {
     border-radius: 20px;
-    filter: drop-shadow(0 0 10px white);
     width: 100%;
 }
 section#About .container .image  img:hover {
@@ -154,7 +152,7 @@ section#Menu .container h1 {
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 30px;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 2px white);
 }
 section#Menu .container .burger {
     overflow: auto;
@@ -167,21 +165,17 @@ section#Menu .container .burger .order {
     margin: auto;
     margin-bottom: 50px;
 }
-section#Menu .container .burger .order:hover {
-    filter: drop-shadow(0 0 10px cyan);
-}
 section#Menu .container .burger .order img {
     display: block;
     width: 90%;
     margin: auto;
     border-radius: 30px;
-    filter: drop-shadow(0 0 10px white);
 }
 section#Menu .container .burger .order p {
     margin-block: 20px;
     text-align: center;
     font-size: 30px;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 2px white);
 }
 section#Menu .container .burger .order ul {
     padding-left: 40px;
@@ -205,7 +199,7 @@ section.Booknow p {
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 2px white);
 }
 section.Booknow form * {
     display: block;
@@ -215,18 +209,17 @@ section.Booknow form * {
 section.Booknow form label {
     margin-bottom: 10px;
     font-weight: lighter;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 1px white);
 }
 section.Booknow form input {
     padding: 12px;
     border: none;
     border-radius: 5px;
     margin-bottom: 50px;
-    filter: drop-shadow(0 0 5px white);
 }
 section.Booknow form input:focus,
 section.Booknow form textarea:focus {
-    filter: drop-shadow(0 0 10px cyan);
+    box-shadow: 0 0 0 5px #ffffff80;
     outline: none;
 }
 section.Booknow textarea {
@@ -235,7 +228,6 @@ section.Booknow textarea {
     margin-bottom: 50px;
     border-radius: 10px;
     resize: none;
-    filter: drop-shadow(0 0 5px white);
 }
 section.Booknow button {
     background-color: transparent;
@@ -246,7 +238,6 @@ section.Booknow button {
     font-weight: 500;
     letter-spacing: 2px;
     height: 50px;
-    filter: drop-shadow(0 0 10px white);
     cursor: pointer;
 }
 section.Booknow button:hover {
@@ -270,6 +261,5 @@ footer {
     height: 50px;
 }
 footer p {
-    filter: drop-shadow(0 0 10px white);
     animation: change-color 250ms linear 0s infinite alternate both;
 }
