@@ -215,6 +215,7 @@ section.Booknow form input {
     padding: 12px;
     border: none;
     border-radius: 5px;
+    color: black;
     margin-bottom: 50px;
 }
 section.Booknow form input:focus,
@@ -223,8 +224,10 @@ section.Booknow form textarea:focus {
     outline: none;
 }
 section.Booknow textarea {
+    padding: 10px;
     width: 400px;
     height: 150px;
+    color: black;
     margin-bottom: 50px;
     border-radius: 10px;
     resize: none;
@@ -241,10 +244,12 @@ section.Booknow button {
     cursor: pointer;
 }
 section.Booknow button:hover {
-    background-color: #73281A;
+    background-color: white;
+    color: #5b1e13;
 }
 section.Booknow button:active {
     background-color: #5b1e13;
+    color: white;
     filter: drop-shadow(0 0 10px cyan);
     border: 2px solid cyan;
     transform: scale(0.8);
